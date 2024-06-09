@@ -1,0 +1,21 @@
+.container-accounts {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.container-accounts .add-accounts-btn {
+  position: relative;
+  top: 55px;
+  left: 950px;
+}
+
+.container-accounts table {
+  width: 100%;
+}
+
+.container-accounts .mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+/*# sourceMappingURL=accounts-list.component.css.map */

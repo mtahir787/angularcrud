@@ -1,0 +1,21 @@
+<div class="container-category-form">
+  <h1>Create Category</h1>
+  <form [formGroup]="categoryForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Category Name</mat-label>
+      <input
+        matInput
+        placeholder="Category Name"
+        formControlName="categoryName"
+      />
+    </mat-form-field>
+  </form>
+  <div mat-dialog-actions>
+    <button mat-raised-button color="primary" routerLink="/category-list">
+      Back
+    </button>
+    <button mat-raised-button [ngClass]="getClass()" (click)="addCategory()">
+      {{ actionButton }}
+    </button>
+  </div>
+</div>

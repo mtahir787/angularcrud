@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAClB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;CAcjB;;AAjBD,AAIE,mBAJiB,CAIjB,iBAAiB,CAAC;EAChB,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,KAAK;CACZ;;AARH,AASE,mBATiB,CASjB,KAAK,CAAC;EACJ,KAAK,EAAE,IAAI;CACZ;;AAXH,AAaE,mBAbiB,CAajB,mBAAmB,CAAC;EAClB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "accounts-list.component.scss"
+    ],
+    "names": [],
+    "file": "accounts-list.component.css"
+}

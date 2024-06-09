@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACrB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;CAYjB;;AAfD,AAIE,sBAJoB,CAIpB,cAAc,CAAC;EACb,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CACnB;;AARH,AASE,sBAToB,CASpB,iBAAiB,CAAC;EAChB,YAAY,EAAE,KAAK;CAIpB;;AAdH,AAWI,sBAXkB,CASpB,iBAAiB,CAEf,kBAAkB,CAAC;EACjB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "vendor-form.component.scss"
+    ],
+    "names": [],
+    "file": "vendor-form.component.css"
+}

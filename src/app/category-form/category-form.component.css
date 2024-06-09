@@ -1,0 +1,24 @@
+.container-category-form {
+  width: 80%;
+  margin: 15px auto 10px auto;
+}
+
+.container-category-form .mat-dialog-actions {
+  position: relative;
+  left: 950px;
+}
+
+.container-category-form .mat-dialog-actions button {
+  margin: 10px;
+}
+
+.container-category-form .success {
+  color: white;
+  background-color: green;
+}
+
+.container-category-form .danger {
+  color: white;
+  background-color: red;
+}
+/*# sourceMappingURL=category-form.component.css.map */

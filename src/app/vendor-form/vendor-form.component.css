@@ -1,0 +1,20 @@
+.vendor-form-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.vendor-form-container mat-form-field {
+  width: 40%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.vendor-form-container .actions-btns-div {
+  margin-right: 130px;
+}
+
+.vendor-form-container .actions-btns-div .mat-raised-button {
+  margin: 10px;
+}
+/*# sourceMappingURL=vendor-form.component.css.map */

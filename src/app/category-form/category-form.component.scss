@@ -1,0 +1,19 @@
+.container-category-form {
+  width: 80%;
+  margin: 15px auto 10px auto;
+  .mat-dialog-actions {
+    position: relative;
+    left: 950px;
+    button {
+      margin: 10px;
+    }
+  }
+  .success {
+    color: white;
+    background-color: green;
+  }
+  .danger {
+    color: white;
+    background-color: red;
+  }
+}

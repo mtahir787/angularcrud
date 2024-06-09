@@ -1,0 +1,21 @@
+.container-category {
+  width: 80%;
+  margin: 15px auto;
+}
+
+.container-category table {
+  width: 100%;
+}
+
+.container-category .mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.container-category .add-category-btn {
+  position: relative;
+  top: 10px;
+  left: 950px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=category.component.css.map */

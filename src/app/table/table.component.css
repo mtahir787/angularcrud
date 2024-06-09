@@ -1,0 +1,20 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container .add-product-btn {
+  position: relative;
+  top: 55px;
+  left: 950px;
+}
+
+.container table {
+  width: 100%;
+}
+
+.container .mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+/*# sourceMappingURL=table.component.css.map */

@@ -1,0 +1,112 @@
+<div class="container-accounts-div">
+  <h1>{{ AccountsPageTitle }}</h1>
+  <div class="alert alert-danger alert-dismissible" *ngIf="deleteMessage">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close"
+      >&times;</a
+    >
+    {{ deleteMessage }}
+  </div>
+  <div class="container-div">
+    <form [formGroup]="accountsForm" novalidate (ngSubmit)="onSubmit()">
+      <!-- Account Code Form Field  -->
+      <mat-form-field appearance="outline">
+        <mat-label>Account Code</mat-label>
+        <input
+          readonly
+          matInput
+          placeholder="Account Code"
+          formControlName="accountCode"
+        />
+      </mat-form-field>
+      <!-- Account Code Form Field Error  -->
+
+      <div
+        *ngIf="
+          accountsForm.controls['accountCode'].invalid &&
+          (accountsForm.controls['accountCode'].dirty ||
+            accountsForm.controls['accountCode'].touched)
+        "
+        class="validate-input"
+        role="alert"
+      >
+        <div *ngIf="accountsForm.controls['accountCode'].errors?.['required']">
+          Please enter Account Code
+        </div>
+      </div>
+      <mat-form-field appearance="outline">
+        <mat-label>Account Name</mat-label>
+        <input
+          matInput
+          placeholder="Account Name"
+          formControlName="accountName"
+        />
+      </mat-form-field>
+      <div
+        *ngIf="
+          accountsForm.controls['accountName'].invalid &&
+          (accountsForm.controls['accountName'].dirty ||
+            accountsForm.controls['accountName'].touched)
+        "
+        class="validate-input"
+        role="alert"
+      >
+        <div *ngIf="accountsForm.controls['accountName'].errors?.['required']">
+          Please enter Account Name'
+        </div>
+      </div>
+      <!-- Account Category Form Field  -->
+
+      <mat-form-field appearance="outline">
+        <mat-label>Account Category</mat-label>
+        <mat-select
+          formControlName="accountCategory"
+          (selectionChange)="onAccountCategoryChange($event.value)"
+        >
+          <mat-option></mat-option>
+          <mat-option
+            *ngFor="let accountCategory of accountsCategories"
+            [value]="accountCategory"
+          >
+            {{ accountCategory }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <!-- Account Type Form Field  -->
+      <mat-form-field appearance="outline">
+        <mat-label>Account Type</mat-label>
+        <mat-select formControlName="accountType">
+          <mat-option></mat-option>
+          <mat-option
+            *ngFor="let accountType of accountsTypes"
+            [value]="accountType"
+          >
+            {{ accountType }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <!-- Bs & Pl Form Field  -->
+      <mat-form-field appearance="outline">
+        <mat-label>Bs & Pl</mat-label>
+        <mat-select formControlName="bsPlType">
+          <mat-option></mat-option>
+          <mat-option *ngFor="let bsPlType of bsPlTypes" [value]="bsPlType">
+            {{ bsPlType }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div mat-dialog-actions [align]="'end'">
+        <button mat-raised-button routerLink="/accounts-list" color="primary">
+          Back
+        </button>
+        <button
+          type="submit"
+          mat-raised-button
+          [ngClass]="getClass()"
+          [disabled]="!accountsForm.valid"
+        >
+          {{ buttonAction }}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

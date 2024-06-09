@@ -1,0 +1,59 @@
+<!-- <mat-toolbar color="primary">
+  <mat-icon>supervised_user_circle</mat-icon>
+  <span>Mai.. Store</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="warn" (click)="openDialog()">
+    Add a Product
+  </button>
+</mat-toolbar> -->
+<div class="top-bar">
+  <mat-toolbar color="primary">
+    <mat-icon>supervised_user_circle</mat-icon>
+    <span>Sales Management</span>
+    <span class="example-spacer"></span>
+    <button
+      mat-raised-button
+      color="secondary"
+      routerLinkActive="activeLink"
+      routerLink="/accounts-list"
+      style="margin: auto 10px"
+    >
+      Accounts
+    </button>
+    <button
+      mat-raised-button
+      color="secondary"
+      style="margin-right: 10px"
+      routerLinkActive="activeLink"
+      routerLink="/category-list"
+    >
+      Category
+    </button>
+    <button
+      mat-raised-button
+      color="secondary"
+      style="margin-right: 10px"
+      routerLinkActive="activeLink"
+      routerLink="/products"
+    >
+      Products
+    </button>
+    <button
+      mat-raised-button
+      color="secondary"
+      style="margin-right: 10px"
+      routerLinkActive="activeLink"
+      routerLink="/vendor"
+    >
+      Vendor
+    </button>
+    <button
+      mat-raised-button
+      color="secondary"
+      routerLinkActive="activeLink"
+      routerLink="/customers"
+    >
+      Customer
+    </button>
+  </mat-toolbar>
+</div>

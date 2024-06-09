@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAYhB;;AAdD,AAII,iBAJa,CAIb,cAAc,CAAA;EACV,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,GAAG;CACb;;AAPL,AAQI,iBARa,CAQb,mBAAmB,CAAC;EAChB,QAAQ,EAAE,OAAO;CACpB;;AAVL,AAWI,iBAXa,CAWb,mBAAmB,CAAA;EACf,YAAY,EAAE,KAAK;CACtB",
+    "sources": [
+        "customer-dialog.component.scss"
+    ],
+    "names": [],
+    "file": "customer-dialog.component.css"
+}

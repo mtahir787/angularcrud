@@ -1,0 +1,19 @@
+.top-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.top-bar .example-spacer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.top-bar .activeLink {
+  background-color: #d9d9d9;
+  color: blue;
+}
+/*# sourceMappingURL=toolbar.component.css.map */

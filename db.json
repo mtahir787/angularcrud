@@ -1,0 +1,316 @@
+{
+  "productsList": [
+    {
+      "productName": "Led Bulb",
+      "category": "Electronics",
+      "date": "2022-11-18T19:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "These are fresh bananas",
+      "id": 1
+    },
+    {
+      "productName": "Banana",
+      "category": "Fruits",
+      "date": "2022-11-18T19:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "These are fresh bananas",
+      "id": 2
+    },
+    {
+      "productName": "Cabage",
+      "category": "Vegetables",
+      "date": "2022-11-18T19:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 120,
+      "comment": "These are fresh bananas",
+      "id": 3
+    },
+    {
+      "productName": "Bringle",
+      "category": "Vegetables",
+      "date": "2022-11-26T19:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 300,
+      "comment": "This is fresh grapes",
+      "id": 4
+    },
+    {
+      "productName": "Life Filter",
+      "category": "Auto Mobiles",
+      "date": "2022-11-23T19:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 10,
+      "comment": "thia is hight quality filter",
+      "id": 5
+    },
+    {
+      "productName": "Life Filter",
+      "category": "Plastic Material",
+      "date": "2022-11-23T19:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 10,
+      "comment": "thia is hight quality filter",
+      "id": 6
+    }
+  ],
+  "customers": [
+    {
+      "customerName": "Muhammmad Tahir Nazir",
+      "address": "GUJRANWALA PUNJAB PAKISTAN",
+      "city": "GUJRANWALA",
+      "mobile": "034030556",
+      "balance": 3299,
+      "id": 1
+    },
+    {
+      "customerName": "Daniyal Sajid",
+      "address": "Alam chowk Gujranwala",
+      "city": "Gujranwala",
+      "mobile": "098765456789",
+      "balance": 100000,
+      "id": 2
+    }
+  ],
+  "vendors": [
+    {
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "Gujranwala",
+      "mobile": "03013074494",
+      "balance": 4000,
+      "id": 1
+    },
+    {
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "Sakhar",
+      "mobile": "03013074494",
+      "balance": 5698,
+      "id": 2
+    },
+    {
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "Gujrat ",
+      "mobile": "03013074494",
+      "balance": 3478,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3500"
+    },
+    {
+      "vendorName": "M. Salman",
+      "address": "Tiba Kamoke",
+      "city": "Kamoke",
+      "mobile": "0300470234",
+      "balance": 1200,
+      "id": 6
+    },
+    {
+      "id": 7,
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3400"
+    },
+    {
+      "id": 8,
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3500"
+    },
+    {
+      "vendorName": "M. Salman",
+      "address": "Tiba Kamoke",
+      "city": "Kamoke",
+      "mobile": "0300470234",
+      "balance": 1200,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3400"
+    },
+    {
+      "id": 11,
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3500"
+    },
+    {
+      "vendorName": "M. Salman",
+      "address": "Tiba Kamoke",
+      "city": "Kamoke",
+      "mobile": "0300470234",
+      "balance": 1200,
+      "id": 12
+    },
+    {
+      "id": 13,
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3400"
+    },
+    {
+      "id": 14,
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3500"
+    },
+    {
+      "vendorName": "M. Salman",
+      "address": "Tiba Kamoke",
+      "city": "Kamoke",
+      "mobile": "0300470234",
+      "balance": 1200,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "vendorName": "MUHAMMAD TAHIR NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3400"
+    },
+    {
+      "id": 17,
+      "vendorName": "MUHAMMAD TALHA NAZIR",
+      "address": "village chandali tehsil kamoke district gujranwala",
+      "city": "kamoke",
+      "mobile": "03013074494",
+      "balance": "3500"
+    },
+    {
+      "vendorName": "M. Salman",
+      "address": "Tiba Kamoke",
+      "city": "Kamoke",
+      "mobile": "0300470234",
+      "balance": 1200,
+      "id": 18
+    },
+    {
+      "vendorName": "Haid Arif",
+      "address": "Shera wala bagh",
+      "city": "GUJRANWALA",
+      "mobile": "0309238485",
+      "balance": 12099,
+      "id": 19
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "Fruits",
+      "id": 1
+    },
+    {
+      "categoryName": "Vegetables",
+      "id": 2
+    },
+    {
+      "categoryName": "Auto Mobiles",
+      "id": 3
+    },
+    {
+      "categoryName": "Electronics",
+      "id": 4
+    },
+    {
+      "categoryName": "Plastic Material",
+      "id": 5
+    },
+    {
+      "categoryName": "wooden",
+      "id": 6
+    }
+  ],
+  "accounts": [
+    {
+      "accountCode": "100001",
+      "accountName": "Muhammad Nazir",
+      "accountType": "Assets",
+      "accountCategory": "Cash",
+      "bsPlType": "Balance Sheet",
+      "id": 1
+    },
+    {
+      "accountCode": "100003",
+      "accountName": "Tahir account",
+      "accountType": "Assets",
+      "accountCategory": "Bank",
+      "bsPlType": "Balance Sheet",
+      "id": 2
+    },
+    {
+      "accountCode": "100005",
+      "accountName": "Talha Account",
+      "accountType": "Assets",
+      "accountCategory": "Bank",
+      "bsPlType": "Balance Sheet",
+      "id": 3
+    },
+    {
+      "accountCode": "100006",
+      "accountName": "Sentary Ware",
+      "accountType": "Assets",
+      "accountCategory": "Cash",
+      "bsPlType": "Balance Sheet",
+      "id": 4
+    },
+    {
+      "accountCode": "100007",
+      "accountName": "Current Account",
+      "accountType": "Assets",
+      "accountCategory": "Cash",
+      "bsPlType": "Balance Sheet",
+      "id": 5
+    },
+    {
+      "accountCode": "500001",
+      "accountName": "Profit Account",
+      "accountType": "Revenue",
+      "accountCategory": "Other",
+      "bsPlType": "Profit & Loss",
+      "id": 6
+    },
+    {
+      "accountCode": "100008",
+      "accountName": "daniyal sajid",
+      "accountType": "Assets",
+      "accountCategory": "Vendor",
+      "bsPlType": "Balance Sheet",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

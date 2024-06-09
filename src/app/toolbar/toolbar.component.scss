@@ -1,0 +1,13 @@
+.top-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .activeLink {
+    background-color: rgb(217, 217, 217);
+    color: blue;
+  }
+}

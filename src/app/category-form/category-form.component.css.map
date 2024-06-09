@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACvB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,mBAAmB;CAgB5B;;AAlBD,AAGE,wBAHsB,CAGtB,mBAAmB,CAAC;EAClB,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,KAAK;CAIZ;;AATH,AAMI,wBANoB,CAGtB,mBAAmB,CAGjB,MAAM,CAAC;EACL,MAAM,EAAE,IAAI;CACb;;AARL,AAUE,wBAVsB,CAUtB,QAAQ,CAAC;EACP,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,KAAK;CACxB;;AAbH,AAcE,wBAdsB,CActB,OAAO,CAAC;EACN,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,GAAG;CACtB",
+    "sources": [
+        "category-form.component.scss"
+    ],
+    "names": [],
+    "file": "category-form.component.css"
+}

@@ -1,0 +1,29 @@
+.prodcut-dialog-containre{
+  width: 100%;
+  .mat-dialog-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+  mat-form-field {
+    width: 40%;
+    margin: 5px 15px;
+  }
+
+  .example-radio-group {
+    width: 380px;
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 15px;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  .mat-dialog-actions{
+    align-self: flex-end;
+    flex: 1;
+    margin-right: 135px;
+  }
+}

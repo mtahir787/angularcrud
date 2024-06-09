@@ -1,0 +1,15 @@
+.dialog-container {
+    width: 100%;
+    height: 500px;
+  
+    mat-form-field{
+        margin: 5px 15px;
+        width: 40%;
+    }
+    .mat-dialog-content {
+        overflow: visible;
+    }
+    .mat-dialog-actions{
+        margin-right: 135px;
+    }
+}

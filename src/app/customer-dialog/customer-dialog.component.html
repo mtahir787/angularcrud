@@ -1,0 +1,47 @@
+<div class="dialog-container">
+  <h1 mat-dialog-title>Add a Product</h1>
+
+  <div mat-dialog-content>
+    <form [formGroup]="customerForm">
+      <mat-form-field appearance="outline">
+        <mat-label>Customer Name</mat-label>
+        <input
+          matInput
+          placeholder="Customer Name"
+          formControlName="customerName"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Address</mat-label>
+        <input matInput placeholder="Address" formControlName="address" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>City</mat-label>
+        <input matInput placeholder="City" formControlName="city" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Mobile</mat-label>
+        <input matInput placeholder="Mobile" formControlName="mobile" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Balance</mat-label>
+        <input
+          matInput
+          type="number"
+          placeholder="Customer Balance"
+          formControlName="balance"
+        />
+      </mat-form-field>
+    </form>
+    <div mat-dialog-actions [align]="'end'">
+      <button mat-raised-button color="warn" matDialogClose="">Close</button>
+      <button mat-raised-button color="primary" (click)="addCustomer()">
+        {{ actionButton }}
+      </button>
+    </div>
+  </div>
+</div>
